@@ -9,8 +9,9 @@ import MainLayout from './Layout/MainLayout';
 import About from './Pages/Home/About';
 import Home from './Pages/Home';
 import Contact from './Pages/Home/Contact';
-import MySkills from './Pages/Home/MySkills';
-import MyProjects from './Pages/Home/MyProjects';
+import  Skills from './Pages/Home/Skills';
+import Projects from './Pages/Home/Projects';
+ 
 
 const router = createBrowserRouter([
   {
@@ -31,11 +32,11 @@ const router = createBrowserRouter([
       },
       {
         path:'skills',
-        element:<MySkills></MySkills>
+        element:<Skills></Skills>
       },
       {
         path:'projects',
-        element:<MyProjects></MyProjects>
+        element:<Projects></Projects>
       }
     ]
   },

@@ -1,6 +1,6 @@
  
 
-const MyProjects = () => {
+const Footer = () => {
     return (
         <div>
             
@@ -8,4 +8,4 @@ const MyProjects = () => {
     );
 };
 
-export default MyProjects;
+export default Footer;
