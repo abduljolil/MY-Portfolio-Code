@@ -9,7 +9,7 @@ const Banner = () => {
                 <div className="max-w-md">
                     <h1 className="mb-5 text-5xl font-bold">Hi ,My <br />name is Abdul Jolil</h1>
                     <p className="mb-5">
-                        I'm MERN stact creative web developer from Pabna,Bangladesh
+                        I'm MERN Stact Creative Web Developer from Pabna,Bangladesh
                     </p>
                 </div>
             </div>

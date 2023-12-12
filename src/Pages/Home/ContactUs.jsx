@@ -1,13 +1,22 @@
+import ContactEmail from "../../component/ContactEmail";
+import ContactLocation from "../../component/ContactLocation";
+import ContactPhone from "../../component/ContactPhone";
 import TitleSection from "../Share/TitleSection";
 
  
 
 const ContactUs = () => {
     return (
-        <div>
+    <div className="hero-content flex-col lg:flex-row-reverse gap-5">
+      <div className=" flex-col space-y-3">
+        <ContactLocation></ContactLocation>
+        <ContactEmail></ContactEmail>
+        <ContactPhone></ContactPhone>
+      </div>
+          <div>
         <TitleSection title='Contact Us'></TitleSection>
       <div className="text-center">
-        <h1 className='text-2xl font-bold'>Contact From</h1>
+        <h1 className='text-2xl font-bold'>Get In Touch</h1>
       </div>
       <form action="https://formsubmit.co/150c5c5a69ac120994baba401fa4bf93" method="POST">
         <div className=" flex sm:flex-col md:flex-row justify-center gap-5 lg:px-20">
@@ -32,6 +41,7 @@ const ContactUs = () => {
         </div>
         <div className="text-center py-5"><button type="submit"className="btn btn-outline border-0 border-b-4 text-xl font-semibold uppercase bg-orange-500">send massage</button></div>
       </form>
+    </div>
     </div>
     );
 };

@@ -8,9 +8,9 @@ import './index.css'
 import MainLayout from './Layout/MainLayout';
 import About from './Pages/Home/About';
 import Home from './Pages/Home';
-import Contact from './Pages/Home/Contact';
 import  Skills from './Pages/Home/Skills';
 import Projects from './Pages/Home/Projects';
+import ContactUs from './Pages/Home/ContactUs';
  
 
 const router = createBrowserRouter([
@@ -28,7 +28,7 @@ const router = createBrowserRouter([
       },
       {
       path:'contact',
-      element:<Contact></Contact>
+      element:<ContactUs></ContactUs>
       },
       {
         path:'skills',
