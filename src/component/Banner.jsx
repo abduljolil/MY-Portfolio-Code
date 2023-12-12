@@ -2,7 +2,7 @@
 
 const Banner = () => {
     return (
-        <div className="hero min-w-screen relative" style={{ backgroundImage: 'url(../../public/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg)' }}>
+        <div className="hero min-w-screen relative " style={{ backgroundImage: 'url(../../public/laptop-with-program-code-isometric-icon-software-development-programming-applications-dark-neon_39422-971.jpg)' }}>
             <div className="hero-overlay bg-opacity-80"></div>
             <div className="hero-content flex-col lg:flex-row justify-center items-center">
             <div className="hero-content text-center text-neutral-content">
