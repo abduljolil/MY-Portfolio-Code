@@ -1,6 +1,7 @@
 import Banner from "../component/Banner";
 import About from "./Home/About";
 import Contact from "./Home/Contact";
+import ContactUs from "./Home/ContactUs";
 import Projects from "./Home/Projects";
 import Skills from "./Home/Skills";
 
@@ -13,7 +14,8 @@ const Home = () => {
             <Skills></Skills>
             <About></About>
             <Projects></Projects>
-            <Contact></Contact>
+            {/* <Contact></Contact> */}
+            <ContactUs></ContactUs>
         </div>
     );
 };

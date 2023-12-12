@@ -4,6 +4,7 @@ import Swal from 'sweetalert2';
  
 import { useForm } from "react-hook-form"
 import TitleSection from '../Share/TitleSection';
+import axios from 'axios';
 
 const Contact = () => {
   const {
@@ -24,7 +25,7 @@ const Contact = () => {
       massage: data.massage,
     };
     console.log('contact',contactItem);
-    axios.post('/contacts', contactItem)
+    axios.post('http://localhost:5000/users', contactItem)
       .then(res => {
         if (res.data.insertedId) {
           console.log('user added to the database');
