@@ -2,9 +2,6 @@ import BrandShopCard from "../../component/BrandShopCard";
 import ProjectCard from "../../component/ProjectCard";
 import ProjectHotel from "../../component/ProjectHotel";
 import TitleSection from "../Share/TitleSection";
-
- 
-
 const  Projects = () => {
     return (
         <div>

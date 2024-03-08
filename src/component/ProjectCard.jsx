@@ -3,7 +3,7 @@
 const ProjectCard = ( ) => {
     return (
     <div className="w-[400px]">
-        <figure>< img src='https://i.ibb.co/44wnnmq/Construction3.png'  className="w-full rounded-lg h-[400px]" alt="Shoes" />
+        <figure>< img src='https://i.postimg.cc/mrrnD4gP/Construction3.png'  className="w-full rounded-lg h-[400px]" alt="Shoes" />
         <h2 className="text-center font-bold text-2xl py-5">Contraction-Company</h2>
         </figure>
         <div >

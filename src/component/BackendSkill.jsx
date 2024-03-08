@@ -6,13 +6,13 @@ const BackendSkill = () => {
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
       <figure  >
-        <img src="https://i.ibb.co/HTW9SHf/back-end-developer-typographic-header-software-development-process-website-interface-design-improvem.jpg" alt="Shoes" className="rounded-xl h-52 w-full" />
+        <img src="https://i.postimg.cc/RVbVwQN7/back-end-developer-typographic-header-software-development-process-website-interface-design-improvem.jpg" alt="Shoes" className="rounded-xl h-52 w-full" />
       </figure>
       <div className="card-body items-center text-center">
-        <h2 className="card-title text-3xl">Frontend</h2>
+        <h2 className="card-title text-3xl">Backend</h2>
         <div className="flex justify-center items-center gap-3">
         <div className="avatar w-8 h-8 rounded-full">
-        <img  src="https://i.ibb.co/JzrsCZH/Node-e71346fe0fec16ec5f6e.png" alt="Node.js" /> 
+        <img  src="https://i.postimg.cc/wB4SG0Y2/Node-e71346fe0fec16ec5f6e.png" alt="Node.js" /> 
           </div>
           <div>
             <h1 className="text-xl font-bold">Node.js</h1>
@@ -20,7 +20,7 @@ const BackendSkill = () => {
         </div>
         <div className="flex justify-center items-center gap-3">
         <div className="avatar w-8 h-8 rounded-full">
-        <img  src="https://i.ibb.co/ZzSnHcF/redbubble-account.png" alt="Express.js" /> 
+        <img  src="https://i.postimg.cc/nhGsBQfp/redbubble-account.png" alt="Express.js" /> 
           </div>
           <div>
             <h1 className="text-xl font-bold">Express.js</h1>
@@ -29,7 +29,7 @@ const BackendSkill = () => {
         <div className="flex justify-center items-center gap-3">
    
         <div className="avatar w-8 h-8 rounded-full">
-        <img  src="https://i.ibb.co/Yj3tswG/Mongo-DB-59b164ea828a81c4b39e.png" alt="MongoDB" /> 
+        <img  src="https://i.postimg.cc/Lsm9py7M/Mongo-DB-59b164ea828a81c4b39e.png" alt="MongoDB" /> 
           </div>
           <div>
             <h1 className="text-xl font-bold">MongoDB</h1>

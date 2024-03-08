@@ -3,7 +3,8 @@
 const ProjectHotel = () => {
     return (
         <div className="w-[400px]">
-        <figure>< img src='https://i.ibb.co/FWQn9qY/Hotel-Booking1.png'  className="w-full rounded-lg h-[400px]" alt="Shoes" />
+        <figure>< img src='https://i.postimg.cc/BQWRCRMz/Hotel-Booking1.png
+        ' className="w-full rounded-lg h-[400px]" alt="Shoes" />
         <h2 className="text-center font-bold text-2xl py-5">Hotel-Booking</h2>
         </figure>
         <div >

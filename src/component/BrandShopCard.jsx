@@ -3,7 +3,7 @@
 const BrandShopCard = () => {
     return (
         <div className="w-[400px]">
-        <figure>< img src='https://i.ibb.co/yPStrwP/BranShop.png'  className="w-full rounded-lg h-[400px]" alt="Shoes" />
+        <figure>< img src='https://i.postimg.cc/dQCxD4wj/BranShop.png'  className="w-full rounded-lg h-[400px]" alt="Shoes" />
         <h2 className="text-center font-bold text-2xl py-5">Contraction-Company</h2>
         </figure>
         <div >

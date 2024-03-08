@@ -26,11 +26,10 @@ const Navbar = () => {
                         <div className="text-xl font-bold ">
                             {links}
                         </div>
-
                     </ul>
                     <div>
                         <Link to="/" className="btn btn-ghost normal-case text-xl">
-                            <img className="w-16 h-16 rounded-full" src="https://i.ibb.co/ydmMC7N/315141262-510431661100654-665141888446761230-n.jpg" alt="" />
+                            <img className="w-16 h-16 rounded-full" src="https://i.postimg.cc/6Q62BVbF/315141262-510431661100654-665141888446761230-n.jpg" alt="" />
                             <h1>ABDUL JOLIL</h1>
                         </Link>
                     </div>
@@ -42,7 +41,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a className="btn btn-outline border-0 border-b-4 text-xl font-semibold uppercase bg-orange-500">Resume <span><IoMdDownload /></span></a>
+                <a href="https://drive.google.com/file/d/1xB6DA3I2TqTfPKaNk2R_rZazoul5mo1y/view?usp=sharing" className=" btn btn-outline border-0 border-b-4 text-xl font-semibold uppercase bg-orange-500">Resume <span><IoMdDownload /></span></a>
             </div>
         </div>
     );

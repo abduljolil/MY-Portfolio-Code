@@ -6,7 +6,7 @@ const FrontendSkill = () => {
   return (
     <div className="card w-96 bg-base-100 shadow-xl">
       <figure  >
-        <img src="https://i.ibb.co/tYZStz3/frontend-developer-typographic-header-website-interface-design-improvement-web-page-programming-codi.jpg" alt="Shoes" className="rounded-xl h-52 w-full" />
+        <img src="https://i.postimg.cc/7hssfRsT/frontend-developer-typographic-header-website-interface-design-improvement-web-page-programming-codi.jpg" alt="Shoes" className="rounded-xl h-52 w-full" />
       </figure>
       <div className="card-body items-center text-center">
         <h2 className="card-title text-3xl">Frontend</h2>
@@ -36,7 +36,7 @@ const FrontendSkill = () => {
         </div>
         <div className="flex justify-center items-center gap-3">
           <div className="avatar w-12 h-12 rounded-full">
-        <img  src="https://i.ibb.co/Ks5z8vw/id-I9er-Ptdw.jpg" alt="" /> 
+        <img  src="https://i.postimg.cc/prMxsqK7/id-I9er-Ptdw.jpg" alt="" /> 
           </div>
           <div>
             <h1 className="text-xl font-bold">Tailwind</h1>

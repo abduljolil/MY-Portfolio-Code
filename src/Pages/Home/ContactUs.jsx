@@ -11,12 +11,12 @@ const ContactUs = () => {
     <div>
       <TitleSection title='Contact ME'></TitleSection>
       <div className="hero-content flex-col lg:flex-row-reverse gap-5">
-      <div className=" w-1/2 flex-col space-y-3">
+      <div className=" lg:w-1/2 flex-col space-y-3">
         <ContactLocation></ContactLocation>
         <ContactEmail></ContactEmail>
         <ContactPhone></ContactPhone>
       </div>
-          <div className="w-1/2" >
+          <div className="lg:w-1/2" >
       <div className="text-center">
         <h1 className='text-2xl font-bold'>Get In Touch</h1>
       </div>
