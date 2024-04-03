@@ -41,7 +41,7 @@ const Navbar = () => {
                 </ul>
             </div>
             <div className="navbar-end">
-                <a href="https://drive.google.com/file/d/1xB6DA3I2TqTfPKaNk2R_rZazoul5mo1y/view?usp=sharing" className=" btn btn-outline border-0 border-b-4 text-xl font-semibold uppercase bg-orange-500">Resume <span><IoMdDownload /></span></a>
+                <a href="https://drive.google.com/file/d/12fBT-nDTgh9Ch7GYrXPG-cRuee95mrnu/view?usp=sharing" className=" btn btn-outline border-0 border-b-4 text-xl font-semibold uppercase bg-orange-500">Resume <span><IoMdDownload /></span></a>
             </div>
         </div>
     );
