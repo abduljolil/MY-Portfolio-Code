@@ -44,14 +44,7 @@ const OtherSkill = () => {
                         <h1 className="text-xl font-bold">Firebase</h1>
                     </div>
                 </div>
-                <div className="flex justify-center items-center gap-3">
-                    <div className="avatar">
-                        <span className="text-2xl"><SiNetlify /></span>
-                    </div>
-                    <div>
-                        <h1 className="text-xl font-bold">Netlify</h1>
-                    </div>
-                </div>
+          
                 <div className="flex justify-center items-center gap-3">
                     <div className="avatar ">
                         <span><IoLogoVercel /></span>
