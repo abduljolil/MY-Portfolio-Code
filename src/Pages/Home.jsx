@@ -1,4 +1,5 @@
-import Banner from "../component/Banner";
+ 
+import Banner from "../component/Bannar/Banner";
 import About from "./Home/About";
 import ContactUs from "./Home/ContactUs";
 import Projects from "./Home/Projects";

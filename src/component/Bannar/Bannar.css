@@ -1,0 +1,46 @@
+.Text-animation {
+    --border-right: 6px;
+    --animation-color: #37FF88;
+    --fs-size: 24px;
+    letter-spacing: 3px;
+    text-decoration: none;
+    font-size: var(--fs-size);
+    position: relative;
+    display: inline-block;
+    padding: 10px 20px;
+    color: white;
+ 
+    cursor: pointer;
+}
+.Text-animation::before {
+    position: absolute;
+    box-sizing: border-box;
+    content: attr(data-text);
+    color: var(--animation-color);
+    width: 0%;
+    inset: 0;
+    border-right: var(--border-right) solid var(--animation-color);
+    overflow: hidden;
+    transition: 0.5s;
+    -webkit-text-stroke: 1px var(--animation-color);
+}
+.Text-animation:hover::before {
+    width: 100%;
+    filter: drop-shadow(0 0 23px var(--animation-color));
+}
+ 
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
